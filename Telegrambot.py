@@ -24,7 +24,7 @@ def charts(bot, update):
     bot.send_photo(chat_id=chat_id, photo=url)
 
 def main():
-    updater = Updater('934856262:AAFHNnlgwIS9JMw1QdLfIpyqpGEqyNB4jww')
+    updater = Updater('')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bop',bop))
     dp.add_handler(CommandHandler('showChart',charts))
